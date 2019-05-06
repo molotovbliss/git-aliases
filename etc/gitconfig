@@ -1,0 +1,26 @@
+[alias]
+    a = add
+    aa = add --all
+    b = branch
+    br = branch
+    bd = branch -d
+    c = commit
+    cm = commit
+    ca = commit -a
+    cam = commit -a -m
+    co = checkout
+    cob = checkout -b
+    cl = clone
+    d = diff
+    df = diff
+    f = fetch
+    fa = fetch --all
+    pl = pull
+    plo = pull origin
+    plom = pull origin master
+    ps = push
+    pso = push origin
+    psom = push origin master
+    rc = record
+    st = status
+    sn = send
