@@ -1,15 +1,9 @@
 [alias]
     a = add
     aa = add --all
-    b = branch
     br = branch
-    bd = branch -d
-    c = commit
     cm = commit
-    ca = commit -a
-    cam = commit -a -m
     co = checkout
-    cob = checkout -b
     cl = clone
     d = diff
     df = diff
