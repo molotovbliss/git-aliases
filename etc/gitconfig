@@ -1,14 +1,23 @@
 [alias]
     a = add
     aa = add --all
+    b = branch
+    bd = branch -d
     br = branch
+    brd = branch -d
+    c = commit
+    ca = commit -m -a
     cm = commit
+    cma = commit -m -a
     co = checkout
+    cob = checkout -b
     cl = clone
     d = diff
     df = diff
     f = fetch
     fa = fetch --all
+    ft = fetch
+    fta = fetch --all
     pl = pull
     plo = pull origin
     plom = pull origin master
