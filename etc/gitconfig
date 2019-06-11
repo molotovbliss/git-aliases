@@ -20,6 +20,8 @@
     fta = fetch --all
     h = help
     ha = help -a
+    m = merge
+    ma = merge --abort
     pl = pull
     plo = pull origin
     plom = pull origin master
