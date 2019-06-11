@@ -18,6 +18,8 @@
     fa = fetch --all
     ft = fetch
     fta = fetch --all
+    h = help
+    ha = help -a
     pl = pull
     plo = pull origin
     plom = pull origin master
