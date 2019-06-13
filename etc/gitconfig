@@ -11,6 +11,7 @@
     cma = commit -m -a
     co = checkout
     cob = checkout -b
+    com = checkout master
     cl = clone
     d = diff
     df = diff
