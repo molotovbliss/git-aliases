@@ -1,0 +1,11 @@
+#!/bin/sh
+
+message=$1
+if [ ! "$message" ]; then
+    message="commit"
+fi
+
+# https://help.github.com/articles/adding-a-file-to-a-repository-from-the-command-line/
+# https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
+git add --all
+git commit -a -m "$message"

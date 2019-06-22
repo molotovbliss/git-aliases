@@ -1,0 +1,17 @@
+#!/bin/sh
+
+message=$1
+
+repo=$2
+if [ ! $repo ]; then
+    repo="origin"
+fi
+
+branch=$3
+if [ ! $branch ]; then
+    branch="master"
+fi
+
+# https://help.github.com/articles/pushing-to-a-remote/
+git record "$message"
+git push $repo $branch

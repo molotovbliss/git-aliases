@@ -3,8 +3,6 @@
     aa = add --all
     b = branch
     bd = branch -d
-    br = branch
-    brd = branch -d
     c = commit
     ca = commit -m -a
     cm = commit
@@ -17,8 +15,6 @@
     df = diff
     f = fetch
     fa = fetch --all
-    ft = fetch
-    fta = fetch --all
     h = help
     ha = help -a
     m = merge
