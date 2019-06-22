@@ -1,3 +1,4 @@
 etc/profile.d/git-aliases.sh etc/profile.d
+etc/gitconfig etc
 usr/bin/git-record usr/bin
 usr/bin/git-send usr/bin

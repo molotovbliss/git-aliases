@@ -1,3 +1,9 @@
+git-aliases (0.1.0-2) bionic; urgency=medium
+
+  * Fix release
+
+ -- Alexander Tarkhov <agtuks@gmail.com>  Sat, 22 Jun 2019 16:36:21 +0300
+
 git-aliases (0.1.0-1) bionic; urgency=medium
 
   * Initial release
