@@ -10,8 +10,9 @@ Git command ailases.
 3. [Usage](#usage)
    1. [Aliases](#aliases)
    2. [Commands](#commands)
-4. [Author](#author)
-5. [License](#license)
+4. [Removing](#removing)
+5. [Author](#author)
+6. [License](#license)
 
 ## Compatibility
 
@@ -80,6 +81,14 @@ Send
 
 ```bash
 git send "commit message" origin master
+```
+
+## Removing
+
+To completely remove the package run the command:
+
+```bash
+sudo apt remove --purge git-aliases
 ```
 
 ## Author
