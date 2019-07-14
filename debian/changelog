@@ -1,3 +1,9 @@
+git-aliases (0.1.1-1) bionic; urgency=medium
+
+  * Second release
+
+ -- Alexander Tarkhov <agtuks@gmail.com>  Sun, 14 Jul 2019 12:35:51 +0300
+
 git-aliases (0.1.0-3) bionic; urgency=medium
 
   * Add gitconfig
