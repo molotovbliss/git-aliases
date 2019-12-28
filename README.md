@@ -69,6 +69,8 @@ Alias | Command
 `rc` | `record`
 `st` | `status`
 `sn` | `send`
+`sno` | `send origin`
+`snom` | `send origin master`
 `t` | `tag`
 
 ### Commands
@@ -82,7 +84,7 @@ git record "commit message"
 Send
 
 ```bash
-git send "commit message" origin master
+git send origin master "commit message" 
 ```
 
 ## Removing

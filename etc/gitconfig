@@ -28,4 +28,6 @@
     rc = record
     st = status
     sn = send
+    sno = send origin
+    snom = send origin master
     t = tag
