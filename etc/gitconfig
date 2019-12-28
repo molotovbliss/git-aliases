@@ -4,15 +4,13 @@
     b = branch
     bd = branch -d
     c = commit
-    ca = commit -m -a
-    cm = commit
-    cma = commit -m -a
+    ca = commit -a
+    cam = commit -a -m
     co = checkout
     cob = checkout -b
     com = checkout master
     cl = clone
     d = diff
-    df = diff
     f = fetch
     fa = fetch --all
     h = help
@@ -23,7 +21,9 @@
     plo = pull origin
     plom = pull origin master
     ps = push
+    psd = push -d
     pso = push origin
+    psod = push origin --delete
     psom = push origin master
     rc = record
     st = status

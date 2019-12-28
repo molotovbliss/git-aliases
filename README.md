@@ -45,13 +45,13 @@ Alias | Command
 `b` | `branch`
 `bd` | `branch -d`
 `c` | `commit`
-`ca` | `commit -m -a`
+`ca` | `commit -a`
+`cam` | `commit -a -m`
 `co` | `checkout`
 `cob` | `checkout -b`
 `com` | `checkout master`
 `cl` | `clone`
 `d` | `diff`
-`df` | `diff`
 `f` | `fetch`
 `fa` | `fetch --all`
 `h` | `help`
@@ -62,7 +62,9 @@ Alias | Command
 `plo` | `pull origin`
 `plom` | `pull origin master`
 `ps` | `push`
+`psd` | `push -d`
 `pso` | `push origin`
+`psod` | `push origin --delete`
 `psom` | `push origin master`
 `rc` | `record`
 `st` | `status`
@@ -98,7 +100,7 @@ sudo apt remove --purge git-aliases
 * [Facebook](https://www.facebook.com/alex.tarkhov)
 * [Twitter](https://twitter.com/alextarkhov)
 * [Medium](https://medium.com/@tarkhov)
-* [Product Hunt](https://www.producthunt.com/@tarkhov)
+* [LinkedIn](https://www.linkedin.com/in/tarkhov/)
 
 ## License
 
