@@ -1,3 +1,9 @@
+git-aliases (0.1.2-1) bionic; urgency=medium
+
+  * Third release
+
+ -- Alexander Tarkhov <agtuks@gmail.com>  Fri, 03 Jan 2020 03:23:05 +0200
+
 git-aliases (0.1.1-1) bionic; urgency=medium
 
   * Second release
