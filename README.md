@@ -54,6 +54,8 @@ Alias | Command
 `d` | `diff`
 `f` | `fetch`
 `fa` | `fetch --all`
+`fo` | `fetch origin`
+`fom` | `fetch origin master`
 `h` | `help`
 `ha` | `help -a`
 `m` | `merge`
@@ -66,12 +68,16 @@ Alias | Command
 `pso` | `push origin`
 `psod` | `push origin --delete`
 `psom` | `push origin master`
+`r` | `remote`
+`rv` | `remote -v`
+`rsu` | `remote set-url`
 `rc` | `record`
 `st` | `status`
 `sn` | `send`
 `sno` | `send origin`
 `snom` | `send origin master`
 `t` | `tag`
+`tl` | `tag -l`
 
 ### Commands
 
