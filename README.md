@@ -33,6 +33,8 @@ sudo apt update
 sudo apt install git-aliases
 ```
 
+You need to **restart the computer** after installation so that the aliases work correctly.
+
 ## Usage
 
 ### Aliases
