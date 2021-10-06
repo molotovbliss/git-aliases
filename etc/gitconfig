@@ -3,6 +3,7 @@
     aa = add --all
     b = branch
     bd = branch -d
+    bdf = branch -D
     c = commit
     ca = commit -a
     cam = commit -a -m
