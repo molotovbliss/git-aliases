@@ -32,6 +32,7 @@
     ma = merge --abort
     mc = merge --continue
     pl = pull
+    plfo = pull --ff-only
     plo = pull origin
     plom = pull origin master
     plr = pull --rebase
