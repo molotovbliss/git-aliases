@@ -15,7 +15,7 @@
     co = checkout
     cob = checkout -b
     cobt = checkout -b tags/
-    com = checkout master
+    com = checkout --merge
     coo = checkout --ours
     cot = checkout --theirs
     cl = clone
