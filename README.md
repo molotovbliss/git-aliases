@@ -7,6 +7,7 @@ Git command ailases.
 1. [Compatibility](#compatibility)
 2. [Installation](#installation)
    1. [Ubuntu](#ubuntu)
+   2. [Manually](#manually)
 3. [Usage](#usage)
    1. [Aliases](#aliases)
    2. [Commands](#commands)
@@ -18,7 +19,7 @@ Git command ailases.
 
 Name | Version
 ------- | -------
-Ubuntu | >= 16.04
+Ubuntu | >= 18.04
 Git | >= 2
 
 ## Installation
@@ -35,6 +36,12 @@ sudo apt install git-aliases
 
 You need to **restart the computer** after installation so that the aliases work correctly.
 
+### Manually
+
+```bash
+sudo dpkg -i git-aliases_1.0.0-1_amd64.deb
+```
+
 ## Usage
 
 ### Aliases
@@ -45,39 +52,61 @@ Alias | Command
 `a` | `add`
 `aa` | `add --all`
 `b` | `branch`
+`ba` | `branch -a`
+`bav` | `branch -a -v`
 `bd` | `branch -d`
+`bdf` | `branch -D`
+`br` | `branch -r`
+`bv` | `branch -v`
 `c` | `commit`
 `ca` | `commit -a`
 `cam` | `commit -a -m`
+`cm` | `commit -m`
 `co` | `checkout`
 `cob` | `checkout -b`
-`com` | `checkout master`
+`cobt` | `checkout -b tags/`
+`com` | `checkout --merge`
+`coo` | `checkout --ours`
+`cot` | `checkout --theirs`
 `cl` | `clone`
+`cp` | `cherry-pick`
 `d` | `diff`
+`dno` | `diff --name-only`
 `f` | `fetch`
 `fa` | `fetch --all`
 `fo` | `fetch origin`
-`fom` | `fetch origin master`
 `h` | `help`
 `ha` | `help -a`
+`l` | `log`
 `m` | `merge`
 `ma` | `merge --abort`
+`mc` | `merge --continue`
 `pl` | `pull`
+`plfo` | `pull --ff-only`
 `plo` | `pull origin`
-`plom` | `pull origin master`
+`plr` | `pull --rebase`
+`plro` | `pull --rebase origin`
 `ps` | `push`
 `psd` | `push -d`
+`psf` | `push --force`
+`psfo` | `push --force origin`
+`psfl` | `push --force-with-lease`
+`psflo` | `push --force-with-lease origin`
 `pso` | `push origin`
 `psod` | `push origin --delete`
-`psom` | `push origin master`
 `r` | `remote`
 `rv` | `remote -v`
 `rsu` | `remote set-url`
+`rmc` | `rm --cached`
 `rc` | `record`
+`rs` | `reset`
+`rsh` | `reset --hard`
+`rshh` | `reset --hard HEAD`
+`rsm` | `reset --merge`
+`rt` | `revert`
 `st` | `status`
 `sn` | `send`
 `sno` | `send origin`
-`snom` | `send origin master`
 `t` | `tag`
 `tl` | `tag -l`
 
@@ -92,7 +121,7 @@ git record "commit message"
 Send
 
 ```bash
-git send origin master "commit message" 
+git send origin main "commit message" 
 ```
 
 ## Removing
