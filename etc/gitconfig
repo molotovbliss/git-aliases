@@ -25,7 +25,6 @@
     f = fetch
     fa = fetch --all
     fo = fetch origin
-    fom = fetch origin master
     h = help
     ha = help -a
     l = log
@@ -35,21 +34,16 @@
     pl = pull
     plfo = pull --ff-only
     plo = pull origin
-    plom = pull origin master
     plr = pull --rebase
     plro = pull --rebase origin
-    plrom = pull --rebase origin master
     ps = push
     psd = push -d
     psf = push --force
     psfo = push --force origin
-    psfom = push --force origin master
     psfl = push --force-with-lease
     psflo = push --force-with-lease origin
-    psflom = push --force-with-lease origin master
     pso = push origin
     psod = push origin --delete
-    psom = push origin master
     r = remote
     rv = remote -v
     rsu = remote set-url
@@ -62,6 +56,5 @@
     st = status
     sn = send
     sno = send origin
-    snom = send origin master
     t = tag
     tl = tag -l
