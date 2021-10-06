@@ -14,6 +14,7 @@
     cm = commit -m
     co = checkout
     cob = checkout -b
+    cobt = checkout -b tags/
     com = checkout master
     coo = checkout --ours
     cot = checkout --theirs
