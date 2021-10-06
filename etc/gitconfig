@@ -28,6 +28,9 @@
     pl = pull
     plo = pull origin
     plom = pull origin master
+    plr = pull --rebase
+    plro = pull --rebase origin
+    plrom = pull --rebase origin master
     ps = push
     psd = push -d
     psf = push --force
