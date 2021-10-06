@@ -16,6 +16,7 @@
     cob = checkout -b
     com = checkout master
     cl = clone
+    cp = cherry-pick
     d = diff
     f = fetch
     fa = fetch --all
