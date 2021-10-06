@@ -2,8 +2,11 @@
     a = add
     aa = add --all
     b = branch
+    ba = branch -a
+    bav = branch -a -v
     bd = branch -d
     bdf = branch -D
+    bv = branch -v
     c = commit
     ca = commit -a
     cam = commit -a -m
