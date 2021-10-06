@@ -22,6 +22,7 @@
     fom = fetch origin master
     h = help
     ha = help -a
+    l = log
     m = merge
     ma = merge --abort
     pl = pull
@@ -37,6 +38,7 @@
     rsu = remote set-url
     rmc = rm --cached
     rc = record
+    rt = revert
     st = status
     sn = send
     sno = send origin
