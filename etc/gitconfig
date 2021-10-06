@@ -20,6 +20,7 @@
     cl = clone
     cp = cherry-pick
     d = diff
+    dno = diff --name-only
     f = fetch
     fa = fetch --all
     fo = fetch origin
@@ -51,6 +52,9 @@
     rsu = remote set-url
     rmc = rm --cached
     rc = record
+    rs = reset
+    rsh = reset --hard
+    rsm = reset --merge
     rt = revert
     st = status
     sn = send
