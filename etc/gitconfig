@@ -6,6 +6,7 @@
     bav = branch -a -v
     bd = branch -d
     bdf = branch -D
+    br = branch -r
     bv = branch -v
     c = commit
     ca = commit -a
