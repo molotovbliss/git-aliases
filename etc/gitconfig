@@ -30,6 +30,7 @@
     l = log
     m = merge
     ma = merge --abort
+    mc = merge --continue
     pl = pull
     plo = pull origin
     plom = pull origin master
