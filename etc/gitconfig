@@ -15,6 +15,8 @@
     co = checkout
     cob = checkout -b
     com = checkout master
+    coo = checkout --ours
+    cot = checkout --theirs
     cl = clone
     cp = cherry-pick
     d = diff
