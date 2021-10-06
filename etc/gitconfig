@@ -30,6 +30,12 @@
     plom = pull origin master
     ps = push
     psd = push -d
+    psf = push --force
+    psfo = push --force origin
+    psfom = push --force origin master
+    psfl = push --force-with-lease
+    psflo = push --force-with-lease origin
+    psflom = push --force-with-lease origin master
     pso = push origin
     psod = push origin --delete
     psom = push origin master
