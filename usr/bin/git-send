@@ -7,7 +7,8 @@ fi
 
 branch=$2
 if [ ! $branch ]; then
-    branch="master"
+    echo "Branch name not provided."
+    exit
 fi
 
 message=$3
