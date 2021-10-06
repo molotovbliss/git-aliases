@@ -6,6 +6,7 @@
     c = commit
     ca = commit -a
     cam = commit -a -m
+    cm = commit -m
     co = checkout
     cob = checkout -b
     com = checkout master
