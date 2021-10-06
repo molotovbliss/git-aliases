@@ -30,6 +30,7 @@
     r = remote
     rv = remote -v
     rsu = remote set-url
+    rmc = rm --cached
     rc = record
     st = status
     sn = send
