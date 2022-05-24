@@ -1,0 +1,11 @@
+changelog:
+  categories:
+    - title: :rocket: Features
+      labels:
+        - feature
+    - title: :beetle: Bug fixes
+      labels:
+        - bug
+    - title: :notebook: Docs
+      labels:
+        - docs
