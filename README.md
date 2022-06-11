@@ -1,6 +1,6 @@
 # Git aliases
 
-Git command ailases.
+Git command aliases.
 
 ### Contents
 
