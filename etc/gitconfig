@@ -51,7 +51,6 @@
     rc = record
     rs = reset
     rsh = reset --hard
-    rshh = reset --hard HEAD
     rsm = reset --merge
     rt = revert
     st = status

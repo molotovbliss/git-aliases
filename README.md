@@ -47,8 +47,8 @@ sudo dpkg -i git-aliases_1.0.0-1_amd64.deb
 
 ### Aliases
 
-Alias | Command
-------- | -------
+Alias | Command | Note
+------- | ------- | -------
 `g` | `git`
 `a` | `add`
 `aa` | `add --all`
@@ -101,8 +101,7 @@ Alias | Command
 `rmc` | `rm --cached`
 `rc` | `record`
 `rs` | `reset`
-`rsh` | `reset --hard`
-`rshh` | `reset --hard HEAD`
+`rsh` | `reset --hard` | **HEAD** alias must be separated from `rsh` so `rshh` alias is removed.
 `rsm` | `reset --merge`
 `rt` | `revert`
 `st` | `status`
@@ -141,6 +140,7 @@ sudo apt remove --purge git-aliases
 * [Twitter](https://twitter.com/alextarkhov)
 * [Medium](https://medium.com/@tarkhov)
 * [LinkedIn](https://www.linkedin.com/in/tarkhov/)
+* [Telegram](https://t.me/alextarkhov)
 
 ## License
 
