@@ -1,3 +1,9 @@
+git-aliases (1.0.1-1) jammy; urgency=medium
+
+  * Hotfix release. Slava Ukraini!
+
+ -- Alexander Tarkhov <agtuks@gmail.com>  Sat, 11 Jun 2022 16:57:14 +0300
+
 git-aliases (1.0.0-1) focal; urgency=medium
 
   * Ubuntu 22.04 LTS Jammy Jellyfish release.
