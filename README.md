@@ -39,8 +39,7 @@ You need to **restart the computer** after installation so that the aliases work
 ### Manually
 
 ```bash
-wget https://github.com/tarkhov/git-aliases/releases/download/v1.0.0/git-aliases_1.0.0-1_amd64.deb
-sudo dpkg -i git-aliases_1.0.0-1_amd64.deb
+curl -sL https://github.com/tarkhov/git-aliases/releases/download/v1.0.1/git-aliases_1.0.1-1_amd64.deb | sudo dpkg -i -
 ```
 
 ## Usage
